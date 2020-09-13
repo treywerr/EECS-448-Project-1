@@ -16,6 +16,8 @@ class Ship : public ShipInterface
 		 * Constructor for Ship.
 		 * @param length - the length of the Ship, or how many spaces it occupies
 		 * @param location - the coordinates of the spaces the Ship occupies on the board
+		 * @pre all parameters are formatted correctly
+		 * @post all member variables have been initialized
 		 */
 		Ship(int length, std::string coord1, std::string coord2, std::string name);
 		
